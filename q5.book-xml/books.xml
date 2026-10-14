@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE books SYSTEM "books.dtd">
+
+<books>
+    <book>
+        <title>Web Technology</title>
+        <author>R K Thomas</author>
+        <publisher>Tech Publication</publisher>
+        <price>450</price>
+        <year>2024</year>
+    </book>
+
+    <book>
+        <title>Advanced Web Development</title>
+        <author>John Thomas</author>
+        <publisher>Pearson</publisher>
+        <price>650</price>
+        <year>2025</year>
+    </book>
+
+    <book>
+        <title>XML</title>
+        <author>James Smith</author>
+        <publisher>McGraw</publisher>
+        <price>550</price>
+        <year>2023</year>
+    </book>
+</books>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Internal CSS -->
+    <style>
+        h1 {
+            text-align: center;
+            color: darkblue;
+        }
+
+        label {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="form">
+        <h1>Student Registration</h1>
+
+        <form>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name">
+
+            <label for="father">Father Name:</label>
+            <input type="text" id="father" name="father">
+
+            <label for="mother">Mother Name:</label>
+            <input type="text" id="mother" name="mother">
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob">
+
+            <label>Gender:</label>
+            <input type="radio" name="gender" value="Male"> Male
+            <input type="radio" name="gender" value="Female"> Female
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+
+            <label for="mobile">Mobile:</label>
+            <input type="tel" id="mobile" name="mobile">
+
+            <label for="address">Address:</label>
+            <textarea id="address" name="address"></textarea>
+
+            <label for="course">Course:</label>
+            <select id="course" name="course">
+                <option value="">Select Course</option>
+                <option value="B.Tech">B.Tech</option>
+                <option value="B.Pharm">B.Pharm</option>
+            </select>
+
+            <label for="semester">Semester of Study:</label>
+            <input type="number" id="semester" name="semester"
+                   min="1" max="8">
+
+            <label for="photo">Upload Photo:</label>
+            <input type="file" id="photo" name="photo">
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+
+            <input type="submit" value="Register">
+        </form>
+    </div>
+</body>
+</html>
